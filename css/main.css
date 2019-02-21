@@ -1,14 +1,5 @@
-/*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
-html {
+secondary-color html {
   color: #222;
   font-size: 18px;
   line-height: 1.4;
@@ -314,18 +305,18 @@ p {
   background: #E64640;
   color: white;
 }
-.button.scandal-mint {
+.button.secondary-color {
   background-color: #AAD9D8;
   border: none;
 }
-.button.scandal-mint:hover {
+.button.secondary-color:hover {
   background-color: rgba(0, 0, 0, 0.5);
 }
-.button.carmine-pink {
+.button.primary-color {
   background-color: #E64640;
   border: none;
 }
-.button.carmine-pink:hover {
+.button.primary-color:hover {
   background-color: rgba(0, 0, 0, 0.5);
 }
 .button a {
@@ -1340,13 +1331,13 @@ p {
   font-weight: bold;
   color: white;
 }
-.main-content > section .bar-chart-horizontal .bar-group .bars .carmine-pink, footer > section .bar-chart-horizontal .bar-group .bars .carmine-pink {
+.main-content > section .bar-chart-horizontal .bar-group .bars .primary-color, footer > section .bar-chart-horizontal .bar-group .bars .primary-color {
   background: #E64640;
 }
-.main-content > section .bar-chart-horizontal .bar-group .bars .scandal-mint, footer > section .bar-chart-horizontal .bar-group .bars .scandal-mint {
+.main-content > section .bar-chart-horizontal .bar-group .bars .secondary-color, footer > section .bar-chart-horizontal .bar-group .bars .secondary-color {
   background: #AAD9D8;
 }
-.main-content > section .bar-chart-horizontal .bar-group .bars .scandal-mint p, footer > section .bar-chart-horizontal .bar-group .bars .scandal-mint p {
+.main-content > section .bar-chart-horizontal .bar-group .bars .secondary-color p, footer > section .bar-chart-horizontal .bar-group .bars .secondary-color p {
   color: #0D1212;
 }
 .main-content > section .expand-bar, footer > section .expand-bar {

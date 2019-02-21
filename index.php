@@ -55,11 +55,11 @@
 				</section>
 
 				<section class="cta column">
-					<div class="button carmine-pink">
+					<div class="button primary-color">
 						<a href="/doc/Advance-HSG-Gender-Intelligence-Report-2018.pdf" target="_blank"><i data-feather="download"></i>Download full report</a>
 					</div>
 
-					<div class="button scandal-mint">
+					<div class="button secondary-color">
 						<a href="/doc/advance-hsg-report-press-release-de-fr-it.pdf" target="_blank"><i data-feather="download"></i>Download Press Release</a>
 					</div>
 				</section>
@@ -202,7 +202,7 @@
 					</article>
 				</section>
 
-				<div class="button carmine-pink anchor-link">
+				<div class="button primary-color anchor-link">
 					<a href="#topic-5"><span><i data-feather="heart"></i></span>Our Recommendations</a>
 				</div>
 			</section>
@@ -453,9 +453,9 @@
 
 							<div class="bar-group row">
 								<div class="bars">
-									<div class="carmine-pink expand-bar" data-value="32" data-total-value="50" data-expand-direction="width"><p></p></div>
+									<div class="primary-color expand-bar" data-value="32" data-total-value="50" data-expand-direction="width"><p></p></div>
 
-									<div class="scandal-mint expand-bar" data-value="30" data-total-value="50" data-expand-direction="width"><p></p></div>
+									<div class="secondary-color expand-bar" data-value="30" data-total-value="50" data-expand-direction="width"><p></p></div>
 								</div>
 							</div>
 						</div> <!-- /Bar-Chart -->
@@ -491,9 +491,9 @@
 
 							<div class="bar-group row">
 								<div class="bars">
-									<div class="carmine-pink expand-bar" data-value="42" data-total-value="50" data-expand-direction="width"><p></p></div>
+									<div class="primary-color expand-bar" data-value="42" data-total-value="50" data-expand-direction="width"><p></p></div>
 
-									<div class="scandal-mint expand-bar" data-value="37" data-total-value="50" data-expand-direction="width"><p></p></div>
+									<div class="secondary-color expand-bar" data-value="37" data-total-value="50" data-expand-direction="width"><p></p></div>
 								</div>
 							</div>
 						</div> <!-- /Bar-Chart -->
@@ -811,11 +811,11 @@
 						</div>
 					</article>
 
-					<div class="cta button carmine-pink">
+					<div class="cta button primary-color">
 						<a href="/doc/Advance-HSG-Gender-Intelligence-Report-2018.pdf" target="_blank"><i data-feather="download"></i>Download full report</a>
 					</div>
 
-					<div class="cta button scandal-mint">
+					<div class="cta button secondary-color">
 						<a href="/doc/advance-hsg-report-press-release-de-fr-it.pdf" target="_blank"><i data-feather="download"></i>Download Press Release</a>
 					</div>
 				</section> <!-- /Topic 5.2 -->
