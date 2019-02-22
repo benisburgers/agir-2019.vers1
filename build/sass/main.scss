@@ -105,11 +105,11 @@ $f-size-l: 1.833;
 $f-size-xm: 1.333;
 $f-size-m-mobile: 1.222;
 $f-size-m: 1.166;
-$f-size-s: 1;
-$f-size-xs: 0.777;
+$f-size-s: 1.3125;
+$f-size-xs: 1;
 
-$primary-color: #E64640;
-$secondary-color: #AAD9D8;
+$primary-color: #F8B500;
+$secondary-color: #1A3263;
 $dark: #0D1212;
 $grey: #898989;
 
@@ -330,7 +330,7 @@ p {
         width: 100%;
         height: 3px;
         border-radius: 1.5px;
-        background: $secondary-color;
+        background: $primary-color;
         display: inline-block;
         margin-top: 10px;
     }
@@ -407,6 +407,10 @@ p {
 .row {
     display: flex;
     flex-direction: row;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 .column {
@@ -697,13 +701,13 @@ p {
 					display: block;
 					height: 6px;
 					border-radius: 3px;
-					background-color: $secondary-color;
+					background-color: $primary-color;
 					max-width: calc((960px / 12) * 8);
 				}
 
 				&.stroke-white {
 					&:before {
-						background-color: white;
+						background-color: $primary-color;
 					}
 				}
 
@@ -773,7 +777,7 @@ p {
 		}
 
 		p {
-			font-size: $f-size-s + rem;
+			font-size: $f-size-xs + rem;
 			font-weight: 200;
 			letter-spacing: 1px;
 			padding: 50px 0;
@@ -795,12 +799,12 @@ p {
 		.legend {
 			width: calc((960px / 12) * 4);
 			font-weight: 500;
-			font-size: $f-size-s + rem;
+			font-size: $f-size-xs + rem;
 			padding-right: 50px;
 
 			p {
 				font-weight: 500;
-				font-size: $f-size-s + rem;
+				font-size: $f-size-xs + rem;
 				margin-bottom: 25px;
 				padding: 0;
 			}
@@ -894,10 +898,9 @@ p {
 		}
 
 		.catcher {
-			background-color: $secondary-color;
+			background-color: $primary-color;
 
 			.topic {
-				background-color: $dark;
 				height: 100px;
 				position: relative;
 
@@ -910,7 +913,7 @@ p {
 					letter-spacing: 10px;
 					text-transform: uppercase;
 					font-weight: bold;
-					color: $secondary-color;
+					color: $primary-color;
 					padding: 0;
 					line-height: 100px;
 					vertical-align: text-bottom;
@@ -1116,7 +1119,7 @@ p {
 							position: absolute;
 							bottom: 0;
 							font-weight: 500;
-							font-size: $f-size-s + rem;
+							font-size: $f-size-xs + rem;
 							color: white;
 							text-align: center;
 							width: 100%;
@@ -1146,10 +1149,6 @@ p {
 					.right {
 						background: $secondary-color;
 						right: 25px;
-
-						p {
-							color: $dark;
-						}
 					}
 				}
 			}
@@ -1262,7 +1261,7 @@ p {
 						background: $secondary-color;
 
 						p {
-							color: $dark;
+							color: white;
 						}
 					}
 				}
@@ -1296,7 +1295,7 @@ p {
 					width: 100%;
 					height: 3px;
 					border-radius: 1.5px;
-					background-color: $secondary-color;
+					background-color: $primary-color;
 					margin-bottom: 25px;
 				}
 			}
@@ -1332,7 +1331,7 @@ p {
 			width: 100%;
 			height: 3px;
 			border-radius: 1.5px;
-			background-color: $secondary-color;
+			background-color: $primary-color;
 		}
 	}
 
@@ -1529,7 +1528,6 @@ footer {
   Percentage Rings
   ========================================================================== */
   @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
-  $dark: #0D1212;
   $inset-color: #ffffff;
   $percentage-text-width: 57px;
 
@@ -1541,7 +1539,7 @@ footer {
       }
     }
     .inset {
-      background-color: #0D1212 !important;
+      background-color: $dark !important;
     }
   }
 
@@ -1549,9 +1547,8 @@ footer {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 40px 20px 0;
-    &:nth-child(2n) {
-      margin-right: 0;
+    margin-bottom: 50px;
+    &:last-child {
     }
   }
 
@@ -1804,13 +1801,13 @@ footer {
      width: 640px;
      max-width: 100%;
      font-weight: 500;
-     font-size: 1rem;
+     font-size: $f-size-xs;
      margin-bottom: 25px;
      &:last-child {
        margin-bottom: 0px;
      }
      span {
-       font-size: 1rem;
+       font-size: $f-size-xs;
        letter-spacing: 1px;
      }
      .title {
@@ -1830,17 +1827,12 @@ footer {
        align-items: center;
        padding: 0 25px;
        box-sizing: border-box;
-       .text-left {
-         color: white;
-       }
-       .text-right {
-         color: black;
-       }
+       color: white;
      }
      .bar-background {
        width: 100%;
        height: 100%;
-       background-color: #AAD9D8;
+       background-color: $secondary-color;
        border-radius: 9px;
        position: absolute;
        overflow: hidden;

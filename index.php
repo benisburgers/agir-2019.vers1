@@ -59,7 +59,7 @@
 						<a href="/doc/Advance-HSG-Gender-Intelligence-Report-2018.pdf" target="_blank"><i data-feather="download"></i>Download full report</a>
 					</div>
 
-					<div class="button secondary-color">
+					<div class="button primary-color">
 						<a href="/doc/advance-hsg-report-press-release-de-fr-it.pdf" target="_blank"><i data-feather="download"></i>Download Press Release</a>
 					</div>
 				</section>
@@ -96,7 +96,7 @@
 				<div class="col size-8">
 					<h1>Accelerating Gender Diversity in Swiss Business</h1>
 
-					<p>As the leading business association for gender equality in Switzerland, Advance has partnered with the Competence Centre for Diversity & Inclusion (CCDI) of the University of St. Gallen to accelerate the creation of gender equal workplaces. This is the second publication of the Advance & HSG Gender Intelligence Report, an integral part of the Advance program to support member companies on their diversity journey.</p>
+					<p class="bold">As the leading business association for gender equality in Switzerland, Advance has partnered with the Competence Centre for Diversity & Inclusion (CCDI) of the University of St. Gallen to accelerate the creation of gender equal workplaces. This is the second publication of the Advance & HSG Gender Intelligence Report, an integral part of the Advance program to support member companies on their diversity journey.</p>
 				</div>
 
 				<div class="col size-8">
@@ -118,7 +118,7 @@
 				</div>
 
 				<div class="col size-8 text">
-					<p>
+					<p class="bold">
 						The results of this study are complemented with insights from the CCDI based on the broader context of their research activities.
 						<br /><br />
 						In practice, we see three main levers for achieving gender equal workplaces: 1. hiring, 2. promoting and 3. retaining more female talent – enabled by processes and a culture that support female careers. You will find the results of the report structured according to these three stages of the employee life cycle.
@@ -211,16 +211,16 @@
 			<section id="topic-1" class="no-padding-top no-padding-bottom">
 				<header class="jarallax" data-jarallax data-speed="0.2" data-img-position="60% 50%">
 					<div class="inner">
-						<span class="num text-dark">1</span>
+						<span class="num text-white">1</span>
 
-						<h1 class="text-dark">
+						<h1 class="text-white">
 							<span>Gender Distribution Per Management Levels</span>
 						</h1>
 					</div>
 				</header>
 
 				<!-- Topic 1.1 -->
-				<section class="dark-bg">
+				<section class="light-bg">
 					<article class="col size-8">
 						<h2>Heavy overrepresentation of men at the top</h2>
 
@@ -260,7 +260,7 @@
 
 				<!-- Quote -->
 				<section class="catcher no-padding-top">
-					<div class="topic">
+					<div class="topic white">
 						<p class="col size-12"><i class="jello-horizontal" data-feather="message-circle"></i>Quote</p>
 					</div>
 
@@ -351,7 +351,7 @@
 				</section> <!-- /Topic 1.2 -->
 
 				<!-- Topic 1.3 -->
-				<section class="dark-bg">
+				<section class="light-bg">
 					<article class="col size-8">
 						<p>In the top quartile of Advance member companies ("best in class"), female representation is even above 30% on all management levels except the top. – Typically, these are companies that have been systematically managing their female talent pipeline over time and have implemented changes in organizational processes and structures that are conducive to female careers.</p>
 					</article>
@@ -381,7 +381,7 @@
 
 				<!-- Insight -->
 				<section class="catcher no-padding-top">
-					<div class="topic">
+					<div class="topic white">
 						<p class="col size-12"><i class="rotate-center" data-feather="sun"></i>Insight</p>
 					</div>
 
@@ -399,9 +399,9 @@
 			<section id="topic-2" class="no-padding-top no-padding-bottom">
 				<header class="jarallax" data-jarallax data-speed="0.2" data-img-position="50% 0%">
 					<div class="inner">
-						<span class="num text-dark">2</span>
+						<span class="num text-white">2</span>
 
-						<h1 class="text-dark">
+						<h1 class="text-white">
 							<span>Hiring</span>
 						</h1>
 					</div>
@@ -419,7 +419,7 @@
 				</section> <!-- /Topic 2.1 -->
 
 				<!-- Topic 2.2 -->
-				<section class="dark-bg">
+				<section class="light-bg">
 					<article class="col size-8">
 						<h2>Recruitment of female talent is increasingly successful</h2>
 
@@ -505,16 +505,16 @@
 			<section id="topic-3" class="no-padding-top no-padding-bottom">
 				<header class="jarallax" data-jarallax data-speed="0.2" data-img-position="50% 0%">
 					<div class="inner">
-						<span class="num text-dark">3</span>
+						<span class="num text-white">3</span>
 
-						<h1 class="text-dark">
+						<h1 class="text-white">
 							<span>Retention and Turnover</span>
 						</h1>
 					</div>
 				</header>
 
 				<!-- Topic 3.1 -->
-				<section class="dark-bg">
+				<section class="light-bg">
 					<article class="col size-8">
 						<h2>Companies are improving on retaining female talent</h2>
 
@@ -559,7 +559,7 @@
 
 				<!-- Insight -->
 				<section class="catcher no-padding-top">
-					<div class="topic dark">
+					<div class="topic white">
 						<p class="col size-12"><i class="rotate-center" data-feather="sun"></i>Insight</p>
 					</div>
 
@@ -596,7 +596,7 @@
 				</header>
 
 				<!-- Topic 4.1 -->
-				<section class="dark-bg">
+				<section class="white-bg">
 					<article class="col size-8">
 						<h2>Women are promoted less often than men</h2>
 
@@ -644,7 +644,7 @@
 				</section> <!-- /Topic 4.2 -->
 
 				<!-- Topic 4.3 -->
-				<section class="dark-bg">
+				<section class="light-bg">
 					<article class="col size-8">
 						<h2>Full-time is king - high average employment rate overall</h2>
 
@@ -658,18 +658,17 @@
 							<span class="red">Women</span>
 							<span class="mint">Men</span>
 						</div>
-
-						<div class="col size-8 row wrap">
-							<?php setupRing(99, 93, 'Middle & Top Management'); ?>
-							<?php setupRing(98, 91, 'All Management Levels'); ?>
-							<?php setupRing(96, 87, 'All Employees'); ?>
-						</div> <!-- /Bar-Chart -->
+					</div> <!-- /Chart -->
+					<div class="chart col size-12 row wrap justify-between">
+						<?php setupRing(99, 93, 'Middle & Top Management'); ?>
+						<?php setupRing(98, 91, 'All Management Levels'); ?>
+						<?php setupRing(96, 87, 'All Employees'); ?>
 					</div> <!-- /Chart -->
 				</section> <!-- /Topic 4.3 -->
 
 				<!-- Quote -->
 				<section class="catcher no-padding-top">
-					<div class="topic">
+					<div class="topic white">
 						<p class="col size-12"><i class="jello-horizontal" data-feather="message-circle"></i>Quote</p>
 					</div>
 
@@ -703,7 +702,7 @@
 							<span class="mint">Men</span>
 						</div>
 
-						<div class="col size-8 row wrap">
+						<div class="col size-8 row wrap justify-between">
 							<?php setupRing(94, 93, '21-30 years'); ?>
 							<?php setupRing(97, 85, '31-40 years'); ?>
 							<?php setupRing(97, 83, '41-50 years'); ?>
@@ -713,7 +712,7 @@
 				</section> <!-- /Topic 4.4 -->
 
 				<!-- Topic 4.4 -->
-				<section class="dark-bg">
+				<section class="light-bg">
 					<article class="col size-8">
 						<h2>Female to male employment rate difference is significantly lower for Advance members</h2>
 
@@ -728,7 +727,7 @@
 							<span class="mint">Men</span>
 						</div>
 
-						<div class="col size-8 row wrap">
+						<div class="col size-8 row wrap justify-between">
 							<?php setupRing(97, 89, 'Advance Members'); ?>
 							<?php setupRing(94, 81, 'Benchmarking Companies'); ?>
 						</div> <!-- /Bar-Chart -->
@@ -737,7 +736,7 @@
 
 				<!-- Insight -->
 				<section class="catcher no-padding-top">
-					<div class="topic">
+					<div class="topic white">
 						<p class="col size-12"><i class="rotate-center" data-feather="sun"></i>Insight</p>
 					</div>
 
@@ -815,7 +814,7 @@
 						<a href="/doc/Advance-HSG-Gender-Intelligence-Report-2018.pdf" target="_blank"><i data-feather="download"></i>Download full report</a>
 					</div>
 
-					<div class="cta button secondary-color">
+					<div class="cta button primary-color">
 						<a href="/doc/advance-hsg-report-press-release-de-fr-it.pdf" target="_blank"><i data-feather="download"></i>Download Press Release</a>
 					</div>
 				</section> <!-- /Topic 5.2 -->
